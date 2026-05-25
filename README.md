@@ -1,5 +1,5 @@
 1. What were the new things you learned in this activity?
-    I learned how to work with Heroku.
+    I learned how to work with Heroku. I learned how difficult getting separate services to cooperate can be. I learned that a procfile is how Heroku knows what commands to run in order to start the application. 
 
 2. What is the purpose of the `seed.js` program?
     The `seed.js` file is used to populate the initial values of the system. In this case the `seed.js` program creates the initial transactions stored in the database. The transactions are created by attribute values being randomly selected from the tables inside `seed.js`.
@@ -8,8 +8,10 @@
     The most difficult part of this activity was getting Heroku and MongoDB to work together. Specifically passwords for MongoDB cluster profiles can use special characters while Heroku will not receive the URI information with special characters. I spent at least half an hour trying to solve why Heroku and MongoDB would not connect.
 
 4. How would you say you were prudent in this assignment?
+    I have to admit I was hardly prudent during this assignment. I did not act with much foresight or significantly great judgement. Specifically I would say I was not prudent in how little I understood Heroku before trying to make it work and repeating steps again and again. I believe the only way I was prudent in this assignment was by having my MongoDB and Heroku accounts setup before the assignment as Dr. Arias asked.
 
 5. How would you say you need to be prudent when developing this kind of web applications?
+    I believe prudence is very important in creating web applications. A lot of web applications deal with sensitive information such as personally identifiable information and financial information. Acting without the prudence to protect this information could mean the information is not securely cared for. Prudence in development can also help with reducing bugs and maintenance as the best way to fix a problem is to plan ahead of it and never let it be a problem. 
 
 6. URL of your deployed application as a link.
     https://transactions-api2-ab9dce00bc3f.herokuapp.com/
